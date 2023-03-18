@@ -9,28 +9,25 @@ int main()
     fp=fopen("L:\\Programs\\harsh.txt","r");
     char ch;
     int l=0,w=0,c=0;
-
-    while(1)
+    
+    if(fp==NULL)
     {
-    ch=fgetc(fp);
-    if(ch==EOF)
-    {
-        break;
+        printf("\n Unable to Open File");
+        exit(1);
     }
-    else
+
+    while((ch=fgetc(fp)!=EOF))
     {
-        if(ch==' ')
+        if(ch==' ' || ch=='\n' || ch=='\t' || ch=='\0')
         {
             w++;
         }
-        if(ch=='\n')
+        if(ch=='\n' || ch=='\0')
         {
             l++;
-        }
-        else
-        {   
-            c++;
-        }
+        }   
+        c++;
+    
     }
     }
     
