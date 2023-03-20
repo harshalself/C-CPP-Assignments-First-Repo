@@ -6,7 +6,7 @@
 int main()
 {
     FILE *fp;
-    fp=fopen("L:\\Programs\\harsh.txt","r");
+    fp=fopen("L:\\Programs\\C-Assignments-First-Repo\\harsh.txt","r");
     char ch;
     int l=0,w=0,c=0;
     
@@ -29,7 +29,7 @@ int main()
         c++;
     
     }
-    }
+    
     
     printf("\n Lines : %d",l);
     printf("\n Character : %d",c);
