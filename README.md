@@ -50,22 +50,22 @@ We are using semantic commit messages made by us own. It is used as follow :
 
 **For new file**
 ```bash
-  nf: filename.extenstion
+  Added: filename
 ```
 
 **For edit in file**
 ```bash
-  fix: filename.extenstion: fix_message
+  Updated: filename: update_message
 ```
 
 **For new docs**
 ```bash
-  docs: parent_folder_name
+  Added doc: parent_folder_name
 ```
 
 **For edit in docs**
 ```bash
-  d_fix: parent_folder_name: fix_message
+  Updated doc: parent_folder_name: update_message
 ```
 
 
