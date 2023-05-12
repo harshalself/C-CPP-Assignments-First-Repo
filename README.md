@@ -2,13 +2,14 @@
 ![Logo](https://www.bookmyessay.com/wp-content/themes/bme-gk/assets/img/academic-assignment-banner.png)
 
 
-# C-Programming-Lab-Assignments 
+# C & CPP - Programming-Lab-Assignments 
 
-##### This is a Repository of the C Programming Lab Assignments for KK WAGH students. You can refer these programs for understanding and application for the given problem. These Programs will also help you for your Exams.
+##### This is a Repository of the C and CPP Programming Lab Assignments for KK WAGH students. You can refer these programs for understanding and application for the given problem. These Programs will also help you for your Exams.
 
 ## Content
 
-##### **Lab Assignments 1-8**
+##### **C Lab Assignments 1-8**
+##### **CPP Lab Assignments 1-8**
 
 ## About Me 
 
