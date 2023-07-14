@@ -1,4 +1,7 @@
 // NAME : HARSHAL PATIL
+// ROLL NO : 37
+// ASSIGNMENT NO : 8
+// PROBLEM STATEMENT : Write a C++ program to Create a class of employees (data members name, DOB, mobile). Write a function to accept the data and display theinformation. Use exception handling while accepting the data. e.g in DOB day value should be in between 1 to 31, month value should be in between 1 to 12 etc. Store and retrieve a data from the file
 
 #include<iostream>
 #include<string>
@@ -103,6 +106,7 @@ int main()
 {
     Employee obj;
     int ch,ch1;
+    cout<<"\n WELCOME TO HARSHAL's ASSIGNMENT";
     do
     {
     cout<<"\n ******** MENU ********";
@@ -133,14 +137,16 @@ return 0;
 
 // Output     
 
-/* ******** MENU ********
+/* 
+ WELCOME TO HARSHAL's ASSIGNMENT
+ ******** MENU ********
  1. Store Data
  2. Retrieve Data
  Enter Choice : 1
 
  ***** Enter Details of Employee *****
 
- Enter Name: Harshal
+ Enter Name: Harshal_Patil
 
  Enter Mobile Number: 1234567890
 
@@ -152,7 +158,7 @@ return 0;
  Enter Year : 2004
 
  ******** Details of EMPLOYEE *********
- Name          : Harshal
+ Name          : Harshal_Patil
  Mobile Number : 1234567890
  Date of Birth :  24 | 4 | 2004
  Data Stored Successfully ;)
@@ -162,7 +168,7 @@ return 0;
  1. Store Data
  2. Retrieve Data
  Enter Choice : 2
-Harshal
+Harshal_Patil
 1234567890
 24 | 4 | 2004
 

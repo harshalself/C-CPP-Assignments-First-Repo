@@ -1,3 +1,8 @@
+// NAME : HARSHAL PATIL
+// ROLL NO : 37
+// ASSIGNMENT NO : 5
+// PROBLEM STATEMENT : Write a C++ program to implement a class Complex which represents the Complex Number data type. Implement the following 1. Constructor (including a default constructor which creates the complex number 0+0i). 2. Overload operator+ to add two complex numbers. 3. Overload operator* to multiply two complex numbers 
+
 #include<iostream>
 using namespace std;
 class Complex
@@ -44,8 +49,12 @@ class Complex
 };
 int main()
 {
-    int ch;
+    int ch,ch1;
     Complex ob1;
+    cout<<"\n WELCOME TO HARSHAL's ASSIGNMENT";
+    do
+    {
+
     cout<<"\n Enter First Complex Number ";
     ob1.getdata();
     Complex ob2;
@@ -83,6 +92,71 @@ int main()
         cout<<"\n Invalid Choice ";
         break;;
     }
+        cout<<"\n Run again(1. Y, 2. N) : ";
+        cin>>ch1;
+
+    } while (ch1==1);
     
     return 0;
 }
+// OUTPUT
+
+/*
+ WELCOME TO HARSHAL's ASSIGNMENT
+ Enter First Complex Number
+ Enter Real Part : 1
+ Enter Imaginary Part : 2
+
+ Enter Second Complex Number
+ Enter Real Part : 3
+ Enter Imaginary Part : 4
+
+ ****Menu****
+ 1.Add
+ 2.Multiply
+ Enter Operation to Perform : 1
+
+ First Complex Number : 1 + i2
+
+ Second Complex Number : 3 + i4
+
+ Addition of Complex Numbers : 4 + i6
+
+ Run again(1. Y, 2. N) : 1
+
+ Enter First Complex Number
+ Enter Real Part : 2
+ Enter Imaginary Part : 4
+
+ Enter Second Complex Number
+ Enter Real Part : 5
+ Enter Imaginary Part : 6
+
+ ****Menu****
+ 1.Add
+ 2.Multiply
+ Enter Operation to Perform : 2
+
+ First Complex Number : 2 + i4
+
+ Second Complex Number : 5 + i6
+
+ Multiplication of Complex Numbers : 14 + i32
+
+ Run again(1. Y, 2. N) : 1
+
+ Enter First Complex Number
+ Enter Real Part : 34
+ Enter Imaginary Part : 35
+
+ Enter Second Complex Number
+ Enter Real Part : 2
+ Enter Imaginary Part : 2
+
+ ****Menu****
+ 1.Add
+ 2.Multiply
+ Enter Operation to Perform : 3
+
+ Invalid Choice
+ Run again(1. Y, 2. N) : 2*/
