@@ -33,8 +33,8 @@ class Employee
         }
         void putdata()
         {
-            ofstream ofile;
-            ofile.open("Employee.txt");
+            fstream ofile;
+            ofile.open("Employee.txt",ios::app);
             if(ofile.is_open())
             {
                 cout<<"\n ******** Details of EMPLOYEE *********";
